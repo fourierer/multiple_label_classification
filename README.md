@@ -286,7 +286,7 @@ print('recall:' + str(recall))
 
 多元分类任务里面，每一张图片属于一个特定的类别，放在一个类别文件当中，然后使用pytorch中的datasets.ImageFolder去读数据集，对数据进行预处理同时返回标签；在多标签分类中，需要重新写ImageFolder函数。
 
-先给出pytorch官方提供的datasets.ImageFolder源代码，pytorch版本为1.0：（https://pytorch.org/docs/1.2.0/_modules/torch/utils/data/dataloader.html#DataLoader）
+先给出pytorch官方提供的datasets.ImageFolder源代码，pytorch版本为1.0：( https://pytorch.org/docs/1.2.0/_modules/torch/utils/data/dataloader.html#DataLoader )
 
 ```python
 import torch.utils.data as data
